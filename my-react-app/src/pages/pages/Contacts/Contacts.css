@@ -1,0 +1,140 @@
+/* Contacts.css */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Add a space between Contact and Side Note */
+    padding: 50px;
+    margin: 0 200px 0 200px;
+    background-color: #f4f4f4; /* Light background color for the entire container */
+  }
+  
+  .main-content {
+    flex: 1;
+    max-width: 70%;
+    margin-right: 10px; /* Add a small right margin */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f60519;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #666;
+    font-size: 20px;
+  }
+  
+  .sdeiLink a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .aboutText {
+    font-size: 20px;
+  }
+  
+  .side-note {
+    max-width: 40%;
+    background-color: #2b8b56;;
+    padding: 30px 20px 40px 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(47, 37, 37, 0.1);
+  }
+  
+  .side-note h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .company-info {
+    margin-top: 30px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  label {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize:vertical;
+  }
+  
+  .submitButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .submitButton {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .submitButton:hover {
+    background-color: rgb(9, 9, 9);
+  }
+  
+  .submitButton:active {
+    background-color: #1fcc6d;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid rgb(19, 146, 97);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-align: center;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .closeButton:hover {
+    color: #f00;
+  }
+  
+  #message  {
+    text-align: center;
+  }

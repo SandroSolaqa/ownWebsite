@@ -1,0 +1,40 @@
+
+/* DayNightToggle.css */
+.day-night-toggle {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .day-night-toggle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .day-night-toggle button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Additional styles for the day and night modes if needed */
+  .day {
+    background-color: white;
+    color: black;
+  }
+  
+  .night {
+    background-color: black;
+    color: white;
+  }
+  .btn-primary {
+    color: var(--white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+  }
+  .btn-primary:hover {
+    color: var(--primary);
+    background-color: var(--white);
+  }
