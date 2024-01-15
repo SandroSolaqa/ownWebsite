@@ -53,6 +53,8 @@ const Contacts = () => {
   const [showErrorPopup, setShowErrorPopup] = useState(false);
 
   return (
+
+
     <div className="contact-container">
       <div className="main-content">
         <h1>Contact Me</h1>
@@ -150,6 +152,8 @@ const Contacts = () => {
         </div>
       )}
     </div>
+    
+    
   );
 };
 

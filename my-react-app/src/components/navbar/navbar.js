@@ -41,12 +41,11 @@ function Navbar() {
             <img src={navImg} alt='logo' className="rounded" width="90" height="80" />
           </a>
           <a className="nav-link" href="/Home">Home</a>
-          <a className="nav-link" href="/Appliances">Projects</a>
           <a className="nav-link" href="/About">About</a>
+          <a className="nav-link" href="/Projects">Projects</a>
+          <a className="nav-link" href="/Resume">Resume</a>
           <a className="nav-link" href="/Contacts">Contacts</a>
-          {/* <button className="nav-link" href="/profile" onClick={handleLogout} >LOGOUT</button> */}
-        
-      {/* <button onClick={handleLogout}>Logout</button> */}
+          
         </div>
       </div>
     </nav>

@@ -1,5 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useNavigate } from 'react';
 import './Footer.css';
+import emailBlack from './emailBlack.png';
+import githubBlack from './githubBlack.png';
+import linkedinBlack from './linkedinBlack.png';
+import resume from './resume.png';
 
 const Footer = () => {
   const [showFooter, setShowFooter] = useState(false);
@@ -10,14 +14,14 @@ const Footer = () => {
       const scrollTop = document.documentElement.scrollTop;
       const clientHeight = document.documentElement.clientHeight;
 
-      if (scrollHeight - scrollTop === clientHeight) {  // calculate height to determine when to show footer
-        setShowFooter(true);  // if position is at bottom, show footer
+      if (scrollHeight - scrollTop === clientHeight) {
+        setShowFooter(true);
       } else {
-        setShowFooter(false); // else don't show
+        setShowFooter(false);
       }
     };
 
-    window.addEventListener('scroll', handleScroll);  
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -28,22 +32,41 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+
+  
   return (
     <div id="footer" className={`fixed-bottom ${showFooter ? 'd-block' : 'd-none'}`}>
       <div className="footerContent">
-        <div>
-          &copy; {new Date().getFullYear()} Copyright:{' '}
-          <a className='copyWrite'>
-            All rights reserved. Website by Sandy Solaqa
-          </a>
+        <div className="copyWrite">
+          &copy; {new Date().getFullYear()} Copyright:{'\u00A0'}
+          <a> All rights reserved. Website designed by Sandy Solaqa</a>
         </div>
-        <a className="returnBtn" onClick={scrollToTop}>
-          <div class="arrow"></div>
-        </a>
       </div>
+
+      <div className="footerContent">
+        <div className='socialIcons'>
+          <a className='title' href='https://github.com/SandroSolaqa'>
+            <img src={githubBlack} alt='github' width="40" height="40" />
+          </a>
+
+          <a className='title' href="mailto:sandysolaqa11@gmail.com">
+            <img src={emailBlack} alt='gmail' width="40" height="40" />
+          </a>
+
+          <a className='title' href='https://www.linkedin.com/in/sandrosolaqa/'>
+            <img src={linkedinBlack} alt='linkedin' width="40" height="40" />
+          </a>
+
+          <button className="title"  > Resume</button>
+
+        </div>
+      </div>
+
+      <a className="returnBtn" onClick={scrollToTop}>
+        <div className="arrow"></div>
+      </a>
     </div>
   );
 };
 
 export default Footer;
-

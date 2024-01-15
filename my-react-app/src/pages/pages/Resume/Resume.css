@@ -1,0 +1,20 @@
+
+.btn-primary {
+    border-radius: 100px;
+    color: rgb(255, 255, 255);  
+    background-color: rgb(0, 0, 0);  
+    cursor: pointer;
+    box-shadow: rgb(255, 0, 0);
+    /* display: inline-block; */
+    margin: 15px;
+    padding: 10px 20px;
+    border: 0;
+    
+
+}
+
+.btn-primary:hover {
+    color: hover-color;  
+    background-color:rgb(255, 0, 0);  
+    
+}
