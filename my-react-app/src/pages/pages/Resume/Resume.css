@@ -9,8 +9,6 @@
     margin: 15px;
     padding: 10px 20px;
     border: 0;
-    
-
 }
 
 .btn-primary:hover {
@@ -18,3 +16,219 @@
     background-color:rgb(255, 0, 0);  
     
 }
+
+.contentHomeBox  {
+    position: absolute;
+    margin: 0 0 0 125px;
+    opacity: 100%;
+    width: 100%;
+    height: 120%;
+    z-index: 1;
+  }
+
+.rectangleBox {
+    margin: 75px 0 0 225px;
+    opacity: 65%;
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-color: #141414;
+    z-index: 2;
+  }
+  #titleDescriptionNew{
+    margin: 50px 0 0 265px;
+    color: #0C8086;
+    font-family: roboto-bold,roboto,sans-serif;
+    font-size: 60px;
+    line-height: 2.0em;
+    position: absolute;
+    z-index: 3;
+  }
+
+  #descriptionSubTitleNew {
+    margin: 90px 0 0 25px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 175, 228);
+    z-index: 3;
+  }
+
+  .descriptionNew {
+    position: absolute;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(247, 246, 246);
+    letter-spacing: 0em;
+    z-index: 3;
+    opacity: 0;
+    animation: fadeInDescriptionNew 7s forwards;
+    margin: 225px 0 0 25px;
+  }
+
+  @keyframes fadeInDescriptionNew {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+  #description1New {
+    margin: 105px 0 0 25px;
+  }
+
+  /* #description2New {
+    line-height: 1.5em;
+    margin: 410px 0 0 25px;
+  }
+
+  #description3New {
+    line-height: 1.5em;
+    margin: 600px 0 0 25px;
+  } */
+
+.blueLineNew {
+    position: absolute;
+    width: 90%;
+    height: 3px;
+    background-color: rgb(51, 175, 228);
+    z-index: 3;
+}
+
+#blueLine1New {
+    margin: 100px 0 0 25px;
+  }
+
+  #blueLine2New {
+    height: 3.5px;
+    margin: 385px 0 0 25px;
+  }
+
+  #blueLine3New {
+    height: 3.5px;
+    margin: 500px 0 0 25px;
+  }
+  #blueLine4New {
+    height: 3.5px;
+    margin: 580px 0 0 25px;
+  }
+  #blueLine5New {
+    height: 3.5px;
+    margin: 580px 0 0 25px;
+  }
+  #blueLine6New {
+    height: 3.5px;
+    margin: 580px 0 0 25px;
+  }
+
+  .smallHeaderNew {  
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 175, 228);
+    line-height: 1.5em;
+    z-index: 3;
+    margin: 175px 0 0 25px;
+  }
+
+  #smallHeader1New {
+    margin: 175px 0 0 25px;
+  }
+
+  #smallHeader2New {
+    margin: 360px 0 0 25px;
+  }
+
+  #smallHeader3New {
+    margin: 550px 0 0 25px;
+  }
+/* ---------------------------------- */
+/* .main{
+    margin: 11rem auto
+  } */
+/*   
+  .contentBox {
+    margin: 100px auto;
+    background-color: rgb(0, 0, 0);
+    width: 29em;
+    height: 37em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 80%;
+      
+  }
+  
+  input{
+    background-color: #bdb7b7;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 13px; 
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    
+  }
+  
+  .user_img img {
+    
+    background-color: #b7f5cc;
+    border-radius: 9em;
+    width: 25%;
+    margin: auto;
+    position: absolute;
+    
+    right: 21rem;
+  }
+  
+  .logo img{
+    width: 33%;
+    margin: auto;
+    position: absolute;
+    top: 8rem;
+    left: 23rem;
+  }
+  
+  .btn-link-container {
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #bdb7b7;
+    box-shadow: 0 0.188em 1.550em rgb(124, 245, 124);
+    color: #000000;
+    border: 0;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .btn-link-container:hover {
+    background-color: #2dbd39;
+  }
+  
+  .btn-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  
+  /* .exist-user {
+    cursor: pointer;
+    background-color: rgb(241, 253, 247);
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+  } */
+  
+  /* .btn-existing-user-container {
+    background: none;
+    border: 0;
+  } */
+   

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Home.css';  // Make sure to provide the correct path for the CSS file
-import sdsu from './sdsu.png';  // Import the solar image or provide the correct path
+import './Home.css'; 
+import sdsu from './sdsu.png';  
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
 
                 <div className='introduction'>
                     <div className='solarImage'>
-                        <img src={sdsu} alt='solar' width="140%" height="60%" />
+                        <img src={sdsu} alt='solar' width="186%" height="60%" />
                     </div>
                     <div className='contentHome'>
                         <h1 id='title'>WELCOME</h1>
@@ -43,6 +43,7 @@ function Home() {
                                 <li>Commitment to Quality and Excellence</li>
                             </ul>
                             <div className='blueLine' id='blueLine2'></div>
+                            
                         </div>
                     </div>
                 </div>

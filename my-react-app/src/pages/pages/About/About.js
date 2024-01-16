@@ -22,9 +22,9 @@ function About() {
                 {/* <img src={jacob} alt='jacob' width="175" height="175" /> */}
               </div>
               <div className='info'>
+               <img src={sandy} alt='sandy' width="600" height="500" />
                
-                 <img src={sandy} alt='sandy' width="600" height="500" />
-                 <div className='connection'>
+              <div >
                 <a className='title' href='https://www.linkedin.com/in/sandrosolaqa/'> 
                   <img src={linkedin} alt='linkedin' width="40" height="40" /> 
                 </a>

@@ -1,12 +1,13 @@
-import React, { useState, useEffect, useNavigate } from 'react';
+import React, { useState, useEffect} from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Footer.css';
 import emailBlack from './emailBlack.png';
 import githubBlack from './githubBlack.png';
 import linkedinBlack from './linkedinBlack.png';
-import resume from './resume.png';
 
 const Footer = () => {
   const [showFooter, setShowFooter] = useState(false);
+  let navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +34,6 @@ const Footer = () => {
   };
 
 
-  
   return (
     <div id="footer" className={`fixed-bottom ${showFooter ? 'd-block' : 'd-none'}`}>
       <div className="footerContent">
@@ -57,7 +57,7 @@ const Footer = () => {
             <img src={linkedinBlack} alt='linkedin' width="40" height="40" />
           </a>
 
-          <button className="title"  > Resume</button>
+          <button className="title" onClick={() => {navigate("/Resume");}} > Resume</button>
 
         </div>
       </div>

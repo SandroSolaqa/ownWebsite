@@ -1,4 +1,4 @@
-/* Start of Main Screen */
+/* Start of Main Screen  */
 .box-container {
     display: flex;
     justify-content: space-evenly;
@@ -7,13 +7,14 @@
     gap: 50px;
   }
   
+  /* working code*/
   .box {
     min-height: 300px;
     max-width: 1200px;
     margin: 70px auto 0px auto;
-    background-color: #ffffff;
+    background-color: #ececec;
     border-radius: 30px;
-    box-shadow: 3px 3px 10px rgb(188, 188, 188);
+    /* box-shadow: 3px 3px 10px rgb(0, 0, 0); */
     padding: 0px 20px 20px 20px;
   }
   
@@ -21,7 +22,7 @@
     min-height: 300px;
     max-width: 1200px;
     margin: 70px auto 0px auto;
-    background-color: #ffffff;
+    background-color: #0e0c0c;
     border-radius: 30px;
     box-shadow: 3px 3px 10px rgb(188, 188, 188);
     padding: 0px 20px 20px 20px;
@@ -246,7 +247,7 @@
     z-index: 3;
   }
 
-  .smallHeader {  
+  .smallHeaderNew {  
     position: absolute;
     font-size: 16px;
     font-weight: bold;
@@ -254,13 +255,11 @@
     color: #386492;
     line-height: 1.5em;
     z-index: 3;
-  }
-
-  #smallHeader1 {
     margin: 175px 0 0 25px;
   }
 
-  #smallHeader2 {
+
+  #smallHeader2New {
     margin: 360px 0 0 25px;
   }
 
@@ -268,11 +267,12 @@
     position: absolute;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(107, 106, 106);
+    color: rgb(0, 0, 0);
     letter-spacing: 0em;
     z-index: 3;
     opacity: 0;
     animation: fadeInDescription 7s forwards;
+    margin: 225px 0 0 25px;
   }
 
   @keyframes fadeInDescription {
@@ -309,3 +309,36 @@
   
   
    
+
+
+  /* mobil responsive code */
+/* @media screen and (max-width: 768px)
+{
+  #footer {
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.5);
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    margin: 3rem auto;
+  }
+
+  .footerContent {
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .returnBtn:hover .arrow {
+    border-color: transparent transparent red; 
+  }
+
+  .info:hover {
+    border-color: red;
+  } 
+} */
+
