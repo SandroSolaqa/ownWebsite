@@ -24,8 +24,8 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Energy Management Simulation Tool</p>
-                <p className='bio'> web-based energy management tool
+                <p className='titleNew'>Energy Management Simulation Tool</p>
+                <p className='bio'> Web-based energy management tool
                 sponsored by SDEI. The tool mimics a household environment where users with solar panels on
                 their roofs can take advantage and store excesses of energy generated from the solar into
                 batteries, during times of low energy demand. This stored energy can be used when demand is
@@ -35,11 +35,11 @@ function Projects() {
                 into a smart panel breaker. The money-saving aspect relies on the mPower module being able to
                 automatically switch on or off circuits in the breaker box panel depending on the time of day via
                 Bluetooth or automatically switch ON/OFF from a smart device. </p>
-                  <a className='title' href='https://www.youtube.com/watch?v=xBPSyRsAqNI'> 
+                  <a className='titleNew' href='https://www.youtube.com/watch?v=xBPSyRsAqNI'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa/SDEI-Simulation-Tool'> 
+                <a className='titleNew' href='https://github.com/SandroSolaqa/SDEI-Simulation-Tool'> 
                   <img src={github} alt='github' width="40" height="40" /> 
                 </a>
               </div>
@@ -72,7 +72,7 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>MovieMaze Web application</p>
+                <p className='titleNew'>MovieMaze Web application</p>
                 <p className='bio'> This project makes use of a free live API, provides a big variety of
                     movies that cater to a wide range of tastes and inclinations. The user-friendly design allows
                     viewers to easily navigate an enormous selection of films from all genres. The implementation of
@@ -83,11 +83,11 @@ function Projects() {
                     journey where excitement meets simplicity, and film buffs meet audiences.
                 </p>
 
-                  <a className='title' href='https://www.youtube.com/watch?v=Y_spczNSci4'> 
+                  <a className='titleNew' href='https://www.youtube.com/watch?v=Y_spczNSci4'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa'> 
+                <a className='titleNew' href='https://github.com/SandroSolaqa'> 
                   <img src={github} alt='github' width="40" height="40" /> 
                 </a>
 
@@ -117,7 +117,7 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Digital Clock Timer</p>
+                <p className='titleNew'>Digital Clock Timer</p>
                 <p className='bio'> Digital Clock Timer implemented in Verilog which is a Hardware Description Language (HDL). Also,
                     I am using the Basys 3 – FPGA board to display the output using the seven-segment that the board has. On
                     the board, there are multiple buttons to control the time and a reset button to reset everything to zero. There
@@ -126,7 +126,7 @@ function Projects() {
                     FPGA Board Figure
  </p>
 
-                  <a className='title' href='https://www.youtube.com/watch?v=m68C0nwVcnQ'> 
+                  <a className='titleNew' href='https://www.youtube.com/watch?v=m68C0nwVcnQ'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
@@ -161,16 +161,19 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Bookshop Management System</p>
-                <p className='bio'>  </p>
+                <p className='titleNew'>Socket Programming</p>
+                <p className='bio'> A socket is a communication endpoint that can be used for sending
+                 and receiving data. It provides a standard interface for network communication. 
+                 Sockets are a process between the programs running in the network. In other words, a process between
+                the transport layer and the application process.  </p>
 
-                  <a className='title' href='https://github.com/SandroSolaqa'> 
+                  <a className='titleNew' href='https://www.youtube.com/watch?v=A-Hui8NHdz8'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa'> 
+                {/* <a className='title' href='https://github.com/SandroSolaqa'> 
                   <img src={github} alt='github' width="40" height="40" /> 
-                </a>
+                </a> */}
 
               </div>
             </div>
@@ -200,7 +203,7 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Snake Game</p>
+                <p className='titleNew'>Snake Game</p>
                 <p className='bio'> Snake game is implemented by using stacks, pointers, 2D arrays, if-else statements and
                     functions. When you start the game, there will be a game option to select from the three options
                     given. The first option allows you to play the game and the second option will display the rules
@@ -215,11 +218,11 @@ function Projects() {
                     specific game boundaries.
                     </p>
 
-                  <a className='title' href='https://www.youtube.com/watch?v=MXk0TQFI3jw&t=14s'> 
+                  <a className='titleNew' href='https://www.youtube.com/watch?v=MXk0TQFI3jw&t=14s'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa/Snake-Game'> 
+                <a className='titleNew' href='https://github.com/SandroSolaqa/Snake-Game'> 
                   <img src={github} alt='github' width="40" height="40" /> 
                 </a>
 
@@ -251,16 +254,17 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Bookshop Management System</p>
-                <p className='bio'>  </p>
+                <p className='titleNew'>Embedded Programming</p>
+                <p className='bio'> Ckeckout my youtube channel for embedded progamming codded 
+                projects in C language such as Morse Code and many others.</p>
 
-                  <a className='title' href='https://github.com/SandroSolaqa'> 
+                  <a className='titleNew' href='https://www.youtube.com/@codingforlife9604/videos'> 
                   <img src={youtube} alt='github' width="100" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa'> 
+                {/* <a className='title' href='https://github.com/SandroSolaqa'> 
                   <img src={github} alt='github' width="40" height="40" /> 
-                </a>
+                </a> */}
 
               </div>
             </div>
@@ -288,7 +292,7 @@ function Projects() {
                 {/* <div className='connection'> 
                   <img src={sandy} alt='sandy' width="600" height="500" /> */}
 
-                <p className='title'>Multimedia System</p>
+                <p className='titleNew'>Multimedia System</p>
                 <p className='bio'> 
                 
                 live multimedia system, leveraging a combination of tools to seamlessly record and broadcast programs

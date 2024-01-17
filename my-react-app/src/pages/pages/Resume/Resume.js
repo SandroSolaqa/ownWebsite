@@ -49,19 +49,18 @@ function Resume() {
               </h3> */}
 
               <p className='smallHeaderNew'>
-              Relevant Coursework
+              Education
               </p>
               <div className='blueLineNew' id='blueLine1New'></div>
               <p className='descriptionNew' id='description1New'>
-              Embedded Systems - Database and WebApp - Data Structures - Microprocessors - Machine Learning<br></br>
-              Windows Programming - Computer Networks - Digital Circuits<br></br>
+              San Diego State University: Bachelor of Science in Computer Engineering<br></br>
               </p>
 
               
-              <p className='smallHeaderNew'>
+              <p className='smallHeader2New'>
               Relevant Coursework
               </p>
-              <div className='blueLineNew' id='blueLine1New'></div>
+              <div className='blueLineNew' id='blueLine2New'></div>
               <p className='descriptionNew' id='description1New'>
               Embedded Systems - Database and WebApp - Data Structures - Microprocessors - Machine Learning<br></br>
               Windows Programming - Computer Networks - Digital Circuits<br></br>

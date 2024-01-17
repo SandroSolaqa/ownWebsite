@@ -25,19 +25,19 @@ function About() {
                <img src={sandy} alt='sandy' width="600" height="500" />
                
               <div >
-                <a className='title' href='https://www.linkedin.com/in/sandrosolaqa/'> 
+                <a className='title1' href='https://www.linkedin.com/in/sandrosolaqa/'> 
                   <img src={linkedin} alt='linkedin' width="40" height="40" /> 
                 </a>
 
-                <a className='title' href='https://github.com/SandroSolaqa'> 
+                <a className='title1' href='https://github.com/SandroSolaqa'> 
                   <img src={github} alt='github' width="40" height="40" /> 
                 </a>
 
-                <a className='title' href="mailto:sandysolaqa11@gmail.com"> 
+                <a className='title1' href="mailto:sandysolaqa11@gmail.com"> 
                   <img src={emailWhite} alt='gmail' width="40" height="40" /> 
                 </a>
               </div>
-                <p className='title'>Computer Engineer</p>
+                <p className='titleFade '>Computer Engineer</p>
                 <p className='bio'> A highly skilled and innovative Computer Engineer with a strong foundation
                  in hardware and software systems, I bring a comprehensive understanding of computer architecture,
                   programming languages, and system design. With a track record of successful project management 
@@ -55,7 +55,7 @@ function About() {
 
                         <p className='bio'> Sandy has a strong grasp of programming languages
                          like C, C++, Matlab, HTML, CSS, JavaScript, Python. His expertise extends to utilizing tools like 
-                         Git, Github, Jira, Docker, React, MongoDB, Django, Raspberry Pi, and
+                         Git, Github, Jira, Docker, React, Django, Raspberry Pi, and
                          FPGA, enabling him to create innovative solutions and explore the
                          world of software and hardware. Eager to learn and grow, he is constantly seeking new challenges
                          to expand his knowledge and skills in the ever-evolving field of technology. </p>

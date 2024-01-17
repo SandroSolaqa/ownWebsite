@@ -131,7 +131,7 @@
     color: rgb(51, 175, 228);
     line-height: 1.5em;
     z-index: 3;
-    margin: 175px 0 0 25px;
+    margin: 70px 0 0 25px;
   }
 
   #smallHeader1New {
@@ -139,11 +139,18 @@
   }
 
   #smallHeader2New {
-    margin: 360px 0 0 25px;
+    margin: 140px 0 0 25px;
   }
 
   #smallHeader3New {
     margin: 550px 0 0 25px;
+  }
+
+  #smallHeader4New {
+    margin: 650px 0 0 25px;
+  }
+  #smallHeader5New {
+    margin: 700px 0 0 25px;
   }
 /* ---------------------------------- */
 /* .main{

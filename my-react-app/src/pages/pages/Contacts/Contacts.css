@@ -8,8 +8,18 @@
     padding: 50px;
     margin: 0 200px 0 200px;
     background-color: #f4f4f4; /* Light background color for the entire container */
+    animation: fadeInTitle 4s ease-in-out forwards;
   }
   
+
+@keyframes fadeInTitle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
   .main-content {
     flex: 1;
     max-width: 70%;
@@ -31,17 +41,19 @@
   .sdeiLink a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
   
   .aboutText {
     font-size: 20px;
+    color: white;
   }
   
   .side-note {
     max-width: 40%;
-    background-color: #2b8b56;;
+    background-color: #eb0b1dee;;
     padding: 30px 20px 40px 20px;
-    color: #fff;
+    color: #d6c7c7;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(47, 37, 37, 0.1);

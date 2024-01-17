@@ -102,7 +102,7 @@ const Contacts = () => {
           <div className="form-row">
             <label htmlFor="message">Message:</label>
             <textarea
-              placeholder='Type your message here:'
+              placeholder='Type your message here'
               id="message"
               name="message"
               value={formData.message}
@@ -114,26 +114,38 @@ const Contacts = () => {
           <button className='submitButton' type="submit">Submit</button>
         </form>
       </div>
-      {/* <div className="side-note">
-        <h2>About Our Company</h2>
+      <div className="side-note">
+        <h2>Where to find Me</h2>
         <p className='aboutText'>
-          Sea Dragon Energy, Inc. is a majority-owned subsidiary of Global Air Logistics and Training, Inc., a veteran-owned small business focused on developing warfighter-centric solutions for command, control, and communications (C3) systems.
+          San Diego, California
         </p>
-        <div className="company-info">
-          <h3>Corporate Address:</h3>
+
+        
+        <h2>Email</h2>
+        <p className='aboutText'>
+        sandysolaqa11@gmail.com
+        </p>
+
+        <h2>Phone</h2>
+        <p className='aboutText'>
+          (619) 558 - 9560
+        </p>
+
+        <h2>Website</h2>
+        <p className='sdeiLink'>
+        <a href='https://www.ssolaqa.com'>www.ssolaqa.com</a>
+        </p>
+
+        {/* <div className="company-info">
+          <h3>Email</h3>
           <p>
-            401 Strada Luca,
-            <br />
-            Florence, TX 76527
-            <br />
-            USA
-            <br />
+        sandysolaqa11@gmail.com
           </p>
           <p className='sdeiLink' >
-            <a href='https://www.seadragon.energy/'>www.seadragon.energy</a>
+            <a href='https://www.seadragon.energy/'>www.ssolaqa.com</a>
           </p>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
       {showSuccessPopup && (
         <div className="popup success-popup">
           <span className="closeButton" onClick={() => setShowSuccessPopup(false)}>

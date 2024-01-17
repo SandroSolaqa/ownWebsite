@@ -163,24 +163,29 @@
     z-index: 1;
   }
 
-  #title {
-    padding: 100px 0 0 0;
-    color: #0C8086;
+  .titleNew {
+    color: #ff0000;
     font-family: roboto-bold,roboto,sans-serif;
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
     line-height: 0.9em;
-    transform: translateX(-100%);
-    animation: slideTitle 3s ease-in-out forwards;
+    animation: fadeInTitle 4s ease-in-out forwards;
+    
   }
 
-  @keyframes slideTitle {
+  @keyframes fadeInTitle {
     from {
-      transform: translateX(-100%);
+      opacity: 0;
     }
     to {
-      transform: translateX(0);
+      opacity: 3;
     }
   }
+
+
+
+
+  
 
   #subTitle {
     margin: 20px 0 0 250px;
