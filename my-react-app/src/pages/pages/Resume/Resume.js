@@ -29,7 +29,7 @@ function Resume() {
       <div className="main">
         <div className='introduction'>
           <div className='solarImage'>
-            <img src={resumeImage} alt='solar' width="130%" height="60%" />
+            <img src={resumeImage} alt='solar' width="128%" height="60%" />
           </div>
           <div className='contentHomeBox'>
             <h1 id='title'>My Resume</h1>
@@ -53,32 +53,32 @@ function Resume() {
               </p>
               <div className='blueLineNew' id='blueLine1New'></div>
               <p className='descriptionNew' id='description1New'>
-              San Diego State University: Bachelor of Science in Computer Engineering<br></br>
+              San Diego State University: Bachelor of Science in 
+              Computer Engineering<br></br> <br></br>         
+A computer engineer plays a pivotal role in advancing technology and 
+shaping the digital landscape.<br></br> With expertise in both hardware and
+ software systems, computer engineers design, develop, and optimize 
+ computing solutions that power our modern world.<br></br> They are instrumental
+  in creating innovative technologies, from embedded systems to large-scale
+   networks,<br></br>  contributing to the evolution of computers and their applications.
+   Computer engineers are at the forefront of technological breakthroughs, ensuring 
+   the efficient integration of hardware components and software algorithms. Their work 
+   extends across various industries, influencing advancements
+ in artificial intelligence.
               </p>
 
-              
+{/*               
               <p className='smallHeader2New'>
               Relevant Coursework
-              </p>
-              <div className='blueLineNew' id='blueLine2New'></div>
-              <p className='descriptionNew' id='description1New'>
+              </p> */}
+              {/* <div className='blueLineNew' id='blueLine2New'></div> */}
+              {/* <p className='descriptionNew' id='description2New'>
               Embedded Systems - Database and WebApp - Data Structures - Microprocessors - Machine Learning<br></br>
               Windows Programming - Computer Networks - Digital Circuits<br></br>
-              </p>
+              </p> */}
 
               
-              <p className='smallHeaderNew' id='smallHeader2New'>
-              Technical Skills:
-              </p>
-              <div className='blueLineNew' id='blueLine2New'></div>
-              <ul className='descriptionNew' id='description2New'>
-                <li>Python, C, C++ HTML/CSS, JavaScript, SQL, MATLAB, MIPS Assembly<br></br></li>
-                <li>VS Code, Jupyter Notebooks, Raspberry Pi, FPGA, React, Microsoft Visio<br></br></li>
-                <li>Git, GitHub, Docker, Jira, Django, Postgres, NodeJS, SQLite<br></br></li>
-              </ul>
-
-
-              <p className='smallHeaderNew' id='smallHeader3New'>
+              {/* <p className='smallHeaderNew' id='smallHeader3New'>
               Technical Skills:
               </p>
               <div className='blueLineNew' id='blueLine3New'></div>
@@ -86,10 +86,21 @@ function Resume() {
                 <li>Python, C, C++ HTML/CSS, JavaScript, SQL, MATLAB, MIPS Assembly<br></br></li>
                 <li>VS Code, Jupyter Notebooks, Raspberry Pi, FPGA, React, Microsoft Visio<br></br></li>
                 <li>Git, GitHub, Docker, Jira, Django, Postgres, NodeJS, SQLite<br></br></li>
-              </ul>
+              </ul> */}
+
+
+              {/* <p className='smallHeaderNew' id='smallHeader3New'>
+              Technical Skills:
+              </p>
+              <div className='blueLineNew' id='blueLine3New'></div>
+              <ul className='descriptionNew' id='description3New'>
+                <li>Python, C, C++ HTML/CSS, JavaScript, SQL, MATLAB, MIPS Assembly<br></br></li>
+                <li>VS Code, Jupyter Notebooks, Raspberry Pi, FPGA, React, Microsoft Visio<br></br></li>
+                <li>Git, GitHub, Docker, Jira, Django, Postgres, NodeJS, SQLite<br></br></li>
+              </ul> */}
               
 
-              <p className='smallHeaderNew' id='smallHeader3New'>
+              {/* <p className='smallHeaderNew' id='smallHeader3New'>
               Technical Skills:
               </p>
               <div className='blueLineNew' id='blueLine4New'></div>
@@ -98,7 +109,7 @@ function Resume() {
                 <li>VS Code, Jupyter Notebooks, Raspberry Pi, FPGA, React, Microsoft Visio<br></br></li>
                 <li>Git, GitHub, Docker, Jira, Django, Postgres, NodeJS, SQLite<br></br></li>
               </ul>
-              
+               */}
 
               {/* <div className='blueLineNew' id='blueLineNew'></div> */}
               

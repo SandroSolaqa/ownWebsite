@@ -151,7 +151,7 @@
 
   .solarImage {
     position: absolute;
-    opacity: 50%;
+    opacity: 35%;
     z-index: 0;
   }
 
@@ -228,7 +228,7 @@
     margin: 385px 0 0 25px;
   }
 
-  .rectangle {
+  .rectangle1 {
     margin: 75px 0 0 225px;
     opacity: 65%;
     position: absolute;
@@ -265,7 +265,7 @@
 
   .description {
     position: absolute;
-    font-size: 16px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
     letter-spacing: 0em;

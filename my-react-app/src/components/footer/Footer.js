@@ -47,13 +47,6 @@ const Footer = () => {
       <div className="footerContent">
         <div className='socialIcons'>
 
-          
-            
-            <button className="titleimg"  onClick={() => {navigate("/Contacts");}} >
-            <img src={phoneBlack} alt='phone' width="40" height="40" />
-            </button>
-
-
           <a className='title' href='https://github.com/SandroSolaqa'>
             <img src={githubBlack} alt='github' width="40" height="40" />
           </a>
@@ -66,8 +59,8 @@ const Footer = () => {
             <img src={linkedinBlack} alt='linkedin' width="40" height="40" />
           </a>
 
-          <button className="title" onClick={() => {navigate("/Resume");}} > Resume</button>
-
+          <button className="title" alt='Resume' width="40" height="40" onClick={() => {navigate("/Resume");}} > Resume </button>
+          <button className="title" alt= 'Call Me' width="45" height="40" onClick={() => {navigate("/Contacts");}} > Call Me </button>
         </div>
       </div>
 

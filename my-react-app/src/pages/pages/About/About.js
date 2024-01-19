@@ -37,7 +37,7 @@ function About() {
                   <img src={emailWhite} alt='gmail' width="40" height="40" /> 
                 </a>
               </div>
-                <p className='titleFade '>Computer Engineer</p>
+                <p className='titleFade '>Computer Engineer - Full Stack - Software Engineer</p>
                 <p className='bio'> A highly skilled and innovative Computer Engineer with a strong foundation
                  in hardware and software systems, I bring a comprehensive understanding of computer architecture,
                   programming languages, and system design. With a track record of successful project management 

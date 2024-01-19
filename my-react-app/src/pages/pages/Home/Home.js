@@ -9,14 +9,14 @@ function Home() {
 
                 <div className='introduction'>
                     <div className='solarImage'>
-                        <img src={sdsu} alt='solar' width="186%" height="60%" />
+                        <img src={sdsu} alt='solar' width="175%" height="60%" />
                     </div>
                     <div className='contentHome'>
                         <h1 id='title'>WELCOME</h1>
                         <p id='subTitle'>Hey, I'm Sandy Solaqa, a Computer Engineer graduate from San Diego State University.
                         </p>
                         <h2 id='titleDescription'>Unlocking Engineering Technology</h2>
-                        <div className='rectangle'>
+                        <div className='rectangle1'>
                             <h3 id='descriptionSubTitle'>My commitment to staying abreast of the latest advancements in computer engineering
                              ensures that I can contribute effectively to projects that require a forward-thinking and adaptable approach. 
                              <br></br>

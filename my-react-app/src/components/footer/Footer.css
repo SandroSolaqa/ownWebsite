@@ -25,13 +25,26 @@
   gap: 20px; 
 }
 
+
+/* .titleimg{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: black;
+}
+
+.titleimg:hover {
+  border: 2px solid red; 
+  border-radius: 6px;
+} */
+
 .title {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .title:hover {
   border: 2px solid red; 
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .returnBtn {

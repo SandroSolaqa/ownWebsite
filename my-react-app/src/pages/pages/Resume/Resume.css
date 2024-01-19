@@ -31,7 +31,7 @@
     opacity: 65%;
     position: absolute;
     width: 800px;
-    height: 800px;
+    height: 300px;
     background-color: #141414;
     z-index: 2;
   }
@@ -79,15 +79,15 @@
     margin: 105px 0 0 25px;
   }
 
-  /* #description2New {
+   #description2New {
     line-height: 1.5em;
-    margin: 410px 0 0 25px;
-  }
+    margin: 200px 0 0 25px;
+  } 
 
-  #description3New {
+  /* #description3New {
     line-height: 1.5em;
     margin: 600px 0 0 25px;
-  } */
+  }  */
 
 .blueLineNew {
     position: absolute;
@@ -99,11 +99,12 @@
 
 #blueLine1New {
     margin: 100px 0 0 25px;
+    height: 3.5px;
   }
 
   #blueLine2New {
     height: 3.5px;
-    margin: 385px 0 0 25px;
+    margin: 160px 0 0 25px;
   }
 
   #blueLine3New {
@@ -139,7 +140,7 @@
   }
 
   #smallHeader2New {
-    margin: 140px 0 0 25px;
+    margin: 200px 0 0 25px;
   }
 
   #smallHeader3New {

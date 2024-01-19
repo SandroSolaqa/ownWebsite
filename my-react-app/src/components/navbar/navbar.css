@@ -37,7 +37,7 @@
   }
   
   .nav-link.active {
-    color: rgb(0, 141, 12);
+    color: rgb(255, 0, 0);
   }
   
   .navbar a:hover {
