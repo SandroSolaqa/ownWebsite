@@ -132,7 +132,7 @@ const Contacts = () => {
 
         <h2>Website</h2>
         <p className='sdeiLink'>
-        <a href='https://www.ssolaqa.com'>www.ssolaqa.com</a>
+        <a href='https://www.ssolaqa.com/'>www.ssolaqa.com</a>
         </p>
 
         {/* <div className="company-info">
