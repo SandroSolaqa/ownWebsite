@@ -24,30 +24,30 @@ function App() {
               </div>
             }
           />
-          <Route
-            path="/Home"
-            element={
-              <div>
-                <Home />
-              </div>
-            }
-          />
-          <Route
-            path="/About"
-            element={
-              <div>
-                <About />
-              </div>
-            }
-          />
+          {/* <Route path="/Home" element={<div><Home /></div>}/> */}
+          <Route path="/Home" element={<Home />} />
+
+          {/* <Route path="/About" element={<div><About /></div> }/> */}
+          <Route path="/About" element={<About />} />
+
+
+          {/* <Route path="/Projects" element={<div><Projects /></div>}/> */}
           <Route
             path="/Projects"
             element={
               <div>
-                <Projects />
+                {/* Use the Navigate component to redirect to the Home page */}
+                <Navigate to="/Projects" replace />
               </div>
             }
           />
+
+
+
+
+
+
+
           <Route
             path="/Resume"
             element={
