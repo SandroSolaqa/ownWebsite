@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="page-row">
       <Navbar />
-      <Router>
+      <Router basename="/ssolaqa.com">
         <Routes>
           <Route
             path="/"

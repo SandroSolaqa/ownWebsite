@@ -10,7 +10,7 @@ const Footer = () => {
   const [showFooter, setShowFooter] = useState(false);
   let navigate = useNavigate();
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => {
       const scrollHeight = document.documentElement.scrollHeight;
       const scrollTop = document.documentElement.scrollTop;
