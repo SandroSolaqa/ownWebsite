@@ -9,7 +9,7 @@ function Home() {
 
                 <div className='introduction'>
                     <div className='solarImage'>
-                        <img src={sdsu} alt='solar' width="175%" height="60%" />
+                        {/* <img src={sdsu} alt='solar' width="160%" height="60%" /> */}
                     </div>
                     <div className='contentHome'>
                         <h1 id='title'>WELCOME</h1>

@@ -1,4 +1,5 @@
 /* Start of Main Screen  */
+
 .box-container {
     display: flex;
     justify-content: space-evenly;
@@ -142,11 +143,15 @@
   .active-tab:hover {
     background-color: #77ce86;
   }
+/* .main{
+  background-size: cover;
+} */
 
   .introduction {
     margin: 30px 0 200px 0;
     overflow: hidden;
     min-height: 120vh;
+    background-size: cover;
   }
 
   .solarImage {

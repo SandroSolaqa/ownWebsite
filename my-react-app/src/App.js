@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="page-row">
       <ColorSchemesExample />
-      <Router>
+      <Router basename='/ownWebsite'>
         <Routes>
           <Route
             path="/"
