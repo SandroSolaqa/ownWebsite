@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import Home from './pages/pages/Home/Home';
 import Navbar from './components/navbar/navbar';
@@ -8,12 +8,14 @@ import ContactInfo from './pages/pages/Contacts/Contacts';
 import Projects from './pages/pages/Projects/Projects';
 import Resume from './pages/pages/Resume/Resume';
 import About from './pages/pages/About/About';
+import ColorSchemesExample from './components/navbar/navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="page-row">
-      <Navbar />
-      <Router >
+      <ColorSchemesExample />
+      <Router>
         <Routes>
           <Route
             path="/"
@@ -24,30 +26,30 @@ function App() {
               </div>
             }
           />
-          {/* <Route path="/Home" element={<div><Home /></div>}/> */}
-          <Route path="/Home" element={<Home />} />
-
-          {/* <Route path="/About" element={<div><About /></div> }/> */}
-          <Route path="/About" element={<About />} />
-
-
-          {/* <Route path="/Projects" element={<div><Projects /></div>}/> */}
+          <Route
+            path="/Home"
+            element={
+              <div>
+                <Home />
+              </div>
+            }
+          />
+          <Route
+            path="/About"
+            element={
+              <div>
+                <About />
+              </div>
+            }
+          />
           <Route
             path="/Projects"
             element={
               <div>
-                {/* Use the Navigate component to redirect to the Home page */}
-                <Navigate to="/Projects" replace />
+                <Projects />
               </div>
             }
           />
-
-
-
-
-
-
-
           <Route
             path="/Resume"
             element={
