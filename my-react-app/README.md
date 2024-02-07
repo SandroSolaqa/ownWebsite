@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+### NOTES ###
+
+## 404 page resolve ##
+ - Steps to resolve 404 page when refresh or use different pages from navbar
+ 
+youtube video: https://www.youtube.com/watch?v=fuGu-Ponjf8
+github link: https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html

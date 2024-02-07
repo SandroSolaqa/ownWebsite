@@ -35,8 +35,8 @@ function Projects() {
                 into a smart panel breaker. The money-saving aspect relies on the mPower module being able to
                 automatically switch on or off circuits in the breaker box panel depending on the time of day via
                 Bluetooth or automatically switch ON/OFF from a smart device. </p>
-                  <a className='titleNew' href='https://www.youtube.com/watch?v=xBPSyRsAqNI'> 
-                  <img src={youtube} alt='github' width="100" height="40" /> 
+                  <a className='youtube' href='https://www.youtube.com/watch?v=xBPSyRsAqNI'> 
+                  <img src={youtube} alt='github' width="40" height="90" /> 
                 </a>
 
                 <a className='titleNew' href='https://github.com/SandroSolaqa/SDEI-Simulation-Tool'> 

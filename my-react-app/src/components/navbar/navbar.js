@@ -51,50 +51,77 @@
 //     </nav>
 //   );
 // }
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from './navImg.png';
+// Assuming this is in /path/to/Navbar.js
+import React, { useState } from 'react';
+import './navbar.css';
 
-function navbar() {
-  const navLinkStyle = { color: '#ff0000', fontSize: '1.2rem' }; // Custom style for navigation links
+// Rename to Navbar to follow React component naming conventions
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <div style={{ background: 'white', padding: '20px', color: 'black' }}>
-      <Navbar bg="white" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="/home" style={{ color: '#ff0000', fontSize: '2.0rem', marginRight: 'auto' }}>
-          <img
-              src={logo}
-              alt="Logo"
-              style={{ width: '50px', height: '50px', marginRight: '10px' }} // Adjust the size as needed
-            />
-            Sandy Solaqa
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/home" style={navLinkStyle}>
-              Home
-            </Nav.Link>
-            <Nav.Link href="/About" style={navLinkStyle}>
-              About
-            </Nav.Link>
-            <Nav.Link href="/Projects" style={navLinkStyle}>
-              Projects
-            </Nav.Link>
-            <Nav.Link href="/Resume" style={navLinkStyle}>
-              Resume
-            </Nav.Link>
-            <Nav.Link href="/Contacts" style={navLinkStyle}>
-              Contacts
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </div>
+    <nav className="hamburger-navbar">
+      <button className="hamburger-icon" onClick={toggleNavbar}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </button>
+      <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   );
-}
+};
 
-export default navbar;
+export default Navbar;
+
+
+
+// function navbar() {
+//   const navLinkStyle = { color: '#ff0000', fontSize: '1.rem' }; // Custom style for navigation links
+
+//   return (
+//     <div style={{ background: 'white', padding: '20px', color: 'black' }}>
+//       <Navbar bg="white" data-bs-theme="dark">
+//         <Container>
+//           <Navbar.Brand href="/home" style={{ color: '#ff0000', fontSize: '2.0rem', marginRight: 'auto' }}>
+//           <img
+//               src={logo}
+//               alt="Logo"
+//               style={{ width: '50px', height: '50px', marginRight: '10px' }} // Adjust the size as needed
+//             />
+//             Sandy Solaqa
+//           </Navbar.Brand>
+//           <Nav className="me-auto">
+//             <Nav.Link href="/home" style={navLinkStyle}>
+//               Home
+//             </Nav.Link>
+//             <Nav.Link href="/About" style={navLinkStyle}>
+//               About
+//             </Nav.Link>
+//             <Nav.Link href="/Projects" style={navLinkStyle}>
+//               Projects
+//             </Nav.Link>
+//             <Nav.Link href="/Resume" style={navLinkStyle}>
+//               Resume
+//             </Nav.Link>
+//             <Nav.Link href="/Contacts" style={navLinkStyle}>
+//               Contacts
+//             </Nav.Link>
+//           </Nav>
+//         </Container>
+//       </Navbar>
+//     </div>
+//   );
+// }
+
+// export default navbar;
 
 
