@@ -123,7 +123,7 @@ body {
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("sdsu1.png");
+    url("sdsu1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,8 +136,18 @@ body {
   justify-content: center;
   height: 100%;
   font-size: 1.6rem;
+  color: #000000;
+  animation: slideTitle 3s ease-in-out forwards;
 }
 
+@keyframes slideTitle {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;

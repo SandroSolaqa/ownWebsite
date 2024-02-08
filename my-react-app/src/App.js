@@ -80,40 +80,61 @@ import './App.css';
 import MenuItem from './components/MenuItem/MenuItem'; // Import the MenuItem component
 import sandy from './sandy.png';
 import contact from './contact.png';
-import youtube from "./youtube.png";
+import youtube from "./youtube.jpeg";
 import github from "./github.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-
+import resume from './SandySolaqaResume.pdf';
 
 function App() {
+  const handleDownload = () => {
+    const downloadLink = document.createElement('a');
+
+    // Set the href attribute to the path of your resume file
+    downloadLink.href = resume;
+
+    // Set the download attribute with the desired filename for the user
+    downloadLink.download = 'SandySolaqaResume.pdf';
+
+    // Append the link to the body
+    document.body.appendChild(downloadLink);
+
+    // Trigger a click on the link to start the download
+    downloadLink.click();
+
+    // Remove the link from the body
+    document.body.removeChild(downloadLink);
+  };
+
+
+
   return (
     <div className="App">
- <nav className="navbar">
-  <div className="navbar-container container">
-    <input type="checkbox" name="" id="" />
-    <div className="hamburger-lines">
-      <span className="line line1"></span>
-      <span className="line line2"></span>
-      <span className="line line3"></span>
-    </div>
-    <ul className="menu-items">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#food">Resume</a></li>
-      <li><a href="#food-menu">Projects</a></li>
-      {/* <li><a href="#testimonials">Testimonial</a></li> */}
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <h1 className="logo">SS</h1>
-  </div>
-</nav>
+    <nav className="navbar">
+      <div className="navbar-container container">
+      <input type="checkbox" name="" id="" />
+        <div className="hamburger-lines">
+          <span className="line line1"></span>
+          <span className="line line2"></span>
+          <span className="line line3"></span>
+        </div>
+          <ul className="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#food">Resume</a></li>
+            <li><a href="#food-menu">Projects</a></li>
+            {/* <li><a href="#testimonials">Testimonial</a></li> */}
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        <h1 className="logo">SS</h1>
+      </div>
+    </nav>
 
       <section className="showcase-area" id="showcase">
       <div className="showcase-container">
         <h1 class="main-title" id="home">WELCOME </h1>
         <p>Hi, my name is Sandy Solaqa</p>
-        <a href="#food-menu" class="btn btn-primary">Download Resume</a>
+        <a href="#food" class="btn btn-primary">My Resume</a>
       </div>
 
       {/* About Section */}
@@ -151,12 +172,14 @@ function App() {
 
       {/* Resume Section  */}
       <section id="food">
-        <h2>Types of food</h2>
-        <div className="food-container container">
-          <MenuItem type="fruite" title="Fruits" imageSrc="image-url" link="https://en.wikipedia.org/wiki/Fruit" />
-          <MenuItem type="vegetable" title="Vegetables" imageSrc="image-url" link="https://en.wikipedia.org/wiki/Vegetable" />
-          <MenuItem type="grin" title="Grains" imageSrc="image-url" link="https://en.wikipedia.org/wiki/Grain" />
-          {/* Add more MenuItem components for other food types */}
+        <div className="container">
+        <div className="showcase-container">
+          <h2>Resume</h2>
+          <p>Please CLICK the Download button for a PDF version of my Resume.</p>
+          <button className="btn btn-primary" onClick={handleDownload}>
+            Download Resume
+          </button>
+          </div>
         </div>
       </section>
 
@@ -466,6 +489,7 @@ function App() {
 
     </div>
   );
+  
 }
 
 export default App;

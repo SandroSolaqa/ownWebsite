@@ -1,3 +1,6 @@
+
+
+
 // import React, { useEffect } from 'react';
 // import './navbar.css';
 // import navImg from './navImg.png';
@@ -52,35 +55,35 @@
 //   );
 // }
 // Assuming this is in /path/to/Navbar.js
-import React, { useState } from 'react';
-import './navbar.css';
+// import React, { useState } from 'react';
+// import './navbar.css';
 
-// Rename to Navbar to follow React component naming conventions
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+// // Rename to Navbar to follow React component naming conventions
+// const Navbar = () => {
+//   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
+//   const toggleNavbar = () => {
+//     setIsOpen(!isOpen);
+//   };
 
-  return (
-    <nav className="hamburger-navbar">
-      <button className="hamburger-icon" onClick={toggleNavbar}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
-      </button>
-      <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  );
-};
+//   return (
+//     <nav className="hamburger-navbar">
+//       <button className="hamburger-icon" onClick={toggleNavbar}>
+//         <div className="bar"></div>
+//         <div className="bar"></div>
+//         <div className="bar"></div>
+//       </button>
+//       <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
+//         <a href="#home">Home</a>
+//         <a href="#services">Services</a>
+//         <a href="#about">About</a>
+//         <a href="#contact">Contact</a>
+//       </div>
+//     </nav>
+//   );
+// };
 
-export default Navbar;
+// export default Navbar;
 
 
 
@@ -124,4 +127,33 @@ export default Navbar;
 
 // export default navbar;
 
+import React from 'react';
+import '../../App.css';
 
+function Navbar() {
+  return (
+    
+      <nav className="navbar">
+        <div className="navbar-container container">
+          <input type="checkbox" name="" id="" />
+          <div className="hamburger-lines">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
+          </div>
+          <ul className="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#food">Resume</a></li>
+            <li><a href="#food-menu">Projects</a></li>
+            {/* <li><a href="#testimonials">Testimonial</a></li> */}
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <h1 className="logo">SS</h1>
+        </div>
+      </nav>
+   
+  );
+}
+
+export default Navbar;
