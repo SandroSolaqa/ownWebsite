@@ -1,3 +1,45 @@
+/* ............//// Showcase styling ////......... */
+
+.showcase-area {
+  height: 70vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("./sdsu1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+  color: #000000;
+  animation: slideTitle 3s ease-in-out forwards;
+}
+
+@keyframes slideTitle {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.main-title {
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+
+
+
+
 /* Start of Main Screen  */
 
 /* .box-container {
@@ -146,7 +188,7 @@
 /* .main{
   background-size: cover;
 } */
-
+/* 
   .introduction {
     margin: 30px 0 200px 0;
     overflow: hidden;
@@ -296,7 +338,7 @@
   #description2 {
     line-height: 1.5em;
     margin: 410px 0 0 25px;
-  }
+  } */
 /* 
   select {
     border: 1px solid #ccc;

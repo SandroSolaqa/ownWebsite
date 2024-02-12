@@ -128,7 +128,7 @@
 // export default navbar;
 
 import React from 'react';
-import '../../App.css';
+import './navbar.css';
 
 function Navbar() {
   return (
