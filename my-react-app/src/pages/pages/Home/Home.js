@@ -1,17 +1,45 @@
+
 import React from 'react';
-// import './Home.css'; 
-// import sdsu from './sdsu.png';  
+import './Home.css'; 
 
 function Home() {
     return (
-
       <section className="showcase-area" id="showcase">
       <div className="showcase-container">
         <h1 class="main-title" id="home">WELCOME </h1>
         <p>Hi, my name is Sandy Solaqa</p>
-        <a href="#food-menu" class="btn btn-primary">Download Resume</a>
+        <a href="#food" class="btn btn-primary">My Resume</a>
       </div>
-</section>
+        </section>
+    );
+}
+
+export default Home;
+
+
+      // <section className="showcase-area" id="showcase">
+      // <div className="showcase-container">
+      //   <h1 class="main-title" id="home">WELCOME </h1>
+      //   <p>Hi, my name is Sandy Solaqa</p>
+      //   <a href="#food" class="btn btn-primary">My Resume</a>
+      // </div>
+
+
+
+// import React from 'react';
+// // import './Home.css'; 
+// // import sdsu from './sdsu.png';  
+
+// function Home() {
+//     return (
+
+//       <section className="showcase-area" id="showcase">
+//       <div className="showcase-container">
+//         <h1 class="main-title" id="home">WELCOME </h1>
+//         <p>Hi, my name is Sandy Solaqa</p>
+//         <a href="#food-menu" class="btn btn-primary">Download Resume</a>
+//       </div>
+// </section>
 
 
         // <>
@@ -59,7 +87,7 @@ function Home() {
         //         </div>
         //     </div>
         // </>
-    );
-}
+//     );
+// }
 
-export default Home;
+// export default Home;
