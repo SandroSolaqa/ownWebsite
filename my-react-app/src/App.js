@@ -133,8 +133,9 @@ function App() {
       <section className="showcase-area" id="showcase">
       <div className="showcase-container">
         <h1 class="main-title" id="home">WELCOME </h1>
-        <p>Hi, my name is Sandy Solaqa</p>
-        <a href="#food" class="btn btn-primary">My Resume</a>
+        <br />
+        <p>Hi, I'm Sandy Solaqa</p>
+        {/* <a href="#food" class="btn btn-primary">My Resume</a> */}
       </div>
 
       {/* About Section */}

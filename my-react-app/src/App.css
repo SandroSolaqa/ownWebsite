@@ -127,6 +127,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(0.9);
 }
 
 .showcase-container {
@@ -138,6 +139,7 @@ body {
   font-size: 1.6rem;
   color: #000000;
   animation: slideTitle 3s ease-in-out forwards;
+  font-weight: 700;
 }
 
 @keyframes slideTitle {
