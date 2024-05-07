@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="footerContent">
         <div className="copyWrite">
           &copy; {new Date().getFullYear()} Copyright:{'\u00A0'}
-          <a> All rights reserved. Website designed by Sandy Solaqa</a>
+          <a> All rights reserved. Website designed by Sandro Solaqa</a>
         </div>
       </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
             <img src={githubBlack} alt='github' width="40" height="40" />
           </a>
 
-          <a className='title' href="mailto:sandysolaqa11@gmail.com">
+          <a className='title' href="mailto:sandro.solaqa11@gmail.com">
             <img src={emailBlack} alt='gmail' width="40" height="40" />
           </a>
 

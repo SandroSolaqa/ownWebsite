@@ -84,7 +84,7 @@ import youtube from "./youtube.jpeg";
 import github from "./github.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import resume from './SandySolaqaResume.pdf';
+import resume from './SandroSolaqaResume.pdf';
 
 function App() {
   const handleDownload = () => {
@@ -94,7 +94,7 @@ function App() {
     downloadLink.href = resume;
 
     // Set the download attribute with the desired filename for the user
-    downloadLink.download = 'SandySolaqaResume.pdf';
+    downloadLink.download = 'SandroSolaqaResume.pdf';
 
     // Append the link to the body
     document.body.appendChild(downloadLink);
@@ -134,7 +134,7 @@ function App() {
       <div className="showcase-container">
         <h1 class="main-title" id="home">WELCOME </h1>
         <br />
-        <p>Hi, I'm Sandy Solaqa</p>
+        <p>Hi, I'm Sandro Solaqa</p>
         {/* <a href="#food" class="btn btn-primary">My Resume</a> */}
       </div>
 
@@ -451,7 +451,7 @@ function App() {
       <div className="footer-col">
         <h4>Email Me</h4>
         <ul>
-          <li><a href="mailto:sandysolaqa11@gmail.com">sandysolaqa11@gmail.com</a></li>
+          <li><a href="mailto:sandysolaqa11@gmail.com">sandro.solaqa@gmail.com</a></li>
         </ul>
       </div>
 
@@ -484,7 +484,7 @@ function App() {
         {/* footer bottom  */}
         <div>
             <div className="footerBottom">
-              <p>Copyright &copy;2024 - Website Designed by <span className = "designer"> Sandy Solaqa </span></p>
+              <p>Copyright &copy;2024 - Website Designed by <span className = "designer"> Sandro Solaqa </span></p>
             </div>
         </div>
 

@@ -79,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  
 youtube video: https://www.youtube.com/watch?v=fuGu-Ponjf8
 github link: https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html
+
+## add to github pages ##
+
+- npm run deploy
