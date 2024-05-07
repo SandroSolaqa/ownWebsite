@@ -82,4 +82,5 @@ github link: https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html
 
 ## add to github pages ##
 
+- npm run build
 - npm run deploy
